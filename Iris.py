@@ -1,11 +1,12 @@
 from sklearn.datasets import *
 from sklearn.model_selection import train_test_split
 from sklearn import svm,linear_model,preprocessing,neighbors,naive_bayes,ensemble
-import numpy as np
+import numpy as np 
 import pandas as pd
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
+import seaborn as sns
 
 iris=load_iris()
 X=iris.data
